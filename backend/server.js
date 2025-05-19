@@ -68,7 +68,7 @@ cloudinary.config({
     api_secret: process.env.API_SECRET,
 });
 
-const PORT = 5001;
+const PORT = 80;
 
 const server = app.listen(PORT, () => {
     console.log(`Server is listening on PORT ${PORT}`);
